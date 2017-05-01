@@ -1,0 +1,18 @@
+fieldset {
+    height: 600px;
+    width: 500px;
+    padding: 10px;
+    margin: 20px auto;
+    text-align: center
+}
+
+textarea {
+    margin: 10px auto;
+    height: 450px;
+    width: 450px;
+}
+
+.message {
+    border: solid, 1px;
+    margin: 10px, auto
+}
