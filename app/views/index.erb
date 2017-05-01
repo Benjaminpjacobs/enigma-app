@@ -1,12 +1,12 @@
-<fieldset>
+<fieldset class="test-fieldset">
     <legend>Enter Secret Message</legend>
     <form action="/enigma" method="post">
         <label for="key">Key:</label>
-        <input type="text" name= "key"><br/><br/>
+        <input type="text" name="key"><br/><br/>
         <label for="message">Message: </label>
         <textarea name="message"></textarea>
         <input value="encrypt" type="submit" formaction="/enigma_encrypt">
-        <input value="decrypt" type="submit" formaction="/enigma_decrypt"/>
+        <input value="decrypt" type="submit" formaction="/enigma_decrypt" />
         <input value="crack" type="submit" formaction="/enigma_crack">
     </form>
 </fieldset>
