@@ -2,9 +2,9 @@
     <legend>Enter Secret Message</legend>
     <form action="/enigma" method="post">
         <label for="key">Key:</label>
-        <input type="text" name="key"><br/><br/>
+        <input type="text" name="key" placeholder="custom key..."><br/><br/>
         <label for="message">Message: </label>
-        <textarea name="message"></textarea>
+        <textarea name="message" placeholder="enter text to encrypt, decrypt or crack..."></textarea>
         <input value="encrypt" type="submit" formaction="/enigma_encrypt">
         <input value="decrypt" type="submit" formaction="/enigma_decrypt" />
         <input value="crack" type="submit" formaction="/enigma_crack">
