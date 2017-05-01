@@ -1,4 +1,4 @@
-require "Date"
+# require "Date"
 
 class Message
   attr_accessor :message, :key, :date, :rotation, :offset
