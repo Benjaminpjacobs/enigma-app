@@ -8,7 +8,6 @@ class EnigmaApp < Sinatra::Base
     erb :index
   end
 
-
   post '/enigma_encrypt' do
     e = Enigma.new
     encryption = e.encrypt("#{params[:message]}", params[:key].to_i)

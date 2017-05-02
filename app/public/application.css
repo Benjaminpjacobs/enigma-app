@@ -34,3 +34,9 @@ textarea {
 .field {
     border-radius: 20px
 }
+
+.dispaly {
+    border: solid 1px;
+    text-align: center;
+    margin: 200px auto;
+}
